@@ -1,6 +1,6 @@
 # Qt Tree View Column Resizing Experiments
 
-Experimenting with `resizeColumnsToContents` in both `QtQuick` and `QtWidgets` tree views.
+Experimenting with `resizeColumnsToContents` for `QtQuick` and `QtWidgets` tree views.
 
 ## Status
 
@@ -8,7 +8,7 @@ Experimenting with `resizeColumnsToContents` in both `QtQuick` and `QtWidgets` t
 
 Calling `TreeView.resizeColumnsToContents(0)` affects the layout of the column, but it doesn't seem to resize the colums to a width that is enough to dislay all the rows in of the column.
 
-###QtWidgets.QTreeView
+### QtWidgets.QTreeView
 
 Simply calling the method `QTreeView.resizeColumnsToContents(0)` achieves the expected results.
 
